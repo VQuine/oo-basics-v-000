@@ -7,6 +7,7 @@ class Book
   end
 
   def title
+    @title
   end
 
   def author=(author)
@@ -14,7 +15,7 @@ class Book
   end
 
   def author
-    @author = author
+    @author
   end
 
   def page_count=(num)
@@ -30,7 +31,7 @@ class Book
   end
 
   def genre
-    @genre = genre
+    @genre
   end
 
   def turn_page
